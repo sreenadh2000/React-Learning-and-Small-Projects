@@ -1,0 +1,90 @@
+#CatContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.container {
+  width: 100%;
+}
+.cat {
+  width: 400px;
+  height: 200px;
+  margin: 50px auto 0;
+  background-position: -400px -1000px;
+  margin-left: 25%;
+}
+/***************************************/
+/* Second  Walk Move Button Animation */
+/***************************************/
+.walking {
+  animation: walk-animation 2s steps(12) infinite;
+  /* background: image("./Images/cat_tiles.png") no-repeat; */
+  background-image: url("./Images/cat_tiles.png");
+}
+@keyframes walk-animation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -2391px;
+  }
+}
+.walk-move {
+  animation: walk-move-animation 6s infinite;
+}
+@keyframes walk-move-animation {
+  from {
+    margin-left: 140%;
+  }
+  to {
+    margin-left: -220%;
+  }
+}
+
+.sit {
+  animation: sit-animation 2s steps(6) infinite;
+  background-image: url("./Images/cat_tiles.png");
+}
+.wlak-then-sit {
+  animation: walk-animation 2s steps(12) 1, sit-animation 3s 2s steps(6) 1;
+  background-image: url("./Images/cat_tiles.png");
+}
+
+@keyframes sit-animation {
+  from {
+    background-position: -400px 0;
+  }
+  to {
+    background-position: -400px -1200px;
+  }
+}
+/***************************************/
+/* First Fast Move Animation Button Animation */
+/***************************************/
+.fast-Run {
+  animation: Fast-Run-animation 2s steps(12) infinite;
+  background-image: url("./Images/cat_tiles.png");
+}
+@keyframes Fast-Run-animation {
+  from {
+    background-position: -800px 0;
+  }
+  to {
+    background-position: -800px -2391px;
+  }
+}
+.fast-move {
+  animation: fast-move-animation 4s infinite;
+}
+@keyframes fast-move-animation {
+  from {
+    margin-left: 140%;
+  }
+  to {
+    margin-left: -220%;
+  }
+}

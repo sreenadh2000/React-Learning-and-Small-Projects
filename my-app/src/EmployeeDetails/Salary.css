@@ -1,0 +1,27 @@
+.Salary {
+  width: 90%;
+  height: 500px;
+  margin: 5% auto auto 5%;
+  position: relative;
+}
+h2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Inside:first-child {
+  margin-top: 5%;
+}
+.Inside {
+  padding: 1% 15%;
+}
+span {
+  width: 20%;
+}
+h3 {
+  margin-top: 2%;
+}
+.Total {
+  margin-left: 2%;
+}

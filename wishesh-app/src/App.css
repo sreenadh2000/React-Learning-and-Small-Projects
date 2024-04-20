@@ -1,0 +1,18 @@
+.App {
+  overflow: hidden;
+}
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App::-webkit-scrollbar {
+  display: none;
+}
+.parent {
+  margin: 0;
+  overflow: hidden;
+}
+.AboutPage {
+  height: 100vh;
+}

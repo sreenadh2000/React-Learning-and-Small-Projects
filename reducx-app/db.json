@@ -1,0 +1,18 @@
+{
+  "user": [
+    {
+      "name": "Jeev",
+      "email": "Jeev@123.com",
+      "phone": "9236866382",
+      "role": "Admin",
+      "id": 3
+    },
+    {
+      "name": "Brayan",
+      "email": "brayan@gmail.com",
+      "phone": "1826836289",
+      "role": "Staff",
+      "id": 4
+    }
+  ]
+}

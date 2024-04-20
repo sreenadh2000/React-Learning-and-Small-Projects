@@ -1,0 +1,51 @@
+.Typing-Text-Container {
+  /* height: 100vh; */
+  font-size: 1.5rem;
+  /* margin-bottom: 10%; */
+}
+.TypingText {
+  overflow: hidden;
+}
+.TypingText h4 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+/******************************** Slide Shower Css Part ************************/
+#SlideShower {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+}
+#SlideShower::-webkit-scrollbar {
+  display: none;
+}
+.slide {
+  border: 2px solid #fceeee;
+  border-radius: 8px;
+  margin: 1%;
+  padding: 1%;
+  width: 100%;
+  box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.5);
+}
+.slide-top {
+  margin-right: 5%;
+}
+.slide:first-child {
+  margin-left: 20%;
+}
+.slide:last-child {
+  margin-right: 20%;
+}
+.slide h1 {
+  color: rgb(158, 215, 196);
+  font-size: 1.8rem;
+}
+.slide p {
+  font-size: 0.8rem;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}

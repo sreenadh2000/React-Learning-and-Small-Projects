@@ -1,0 +1,18 @@
+{
+  "user": [
+    {
+      "name": "Anil",
+      "email": "anil@123.com",
+      "phone": "9440653107",
+      "role": "Admin",
+      "id": 3
+    },
+    {
+      "name": "BATHALAKURI SREENADH",
+      "email": "sreenadh056@gmail.com",
+      "phone": "07337483700",
+      "role": "Staff",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+/* 03045e,0077b6,0096c7,00b4d8,48cae4,90e0ef */
+#Landing {
+  /* background-color: #0077b6; */
+  margin: 0;
+  height: 100%;
+  /* background: linear-gradient(#6062e8, #25aaf1); */
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#Landing button {
+  background-color: rgb(150, 25, 3, 1);
+  font-size: 1.3rem;
+  border-radius: 15px;
+  padding: 3%;
+  border: 0;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+#Landing button:hover,
+button:active {
+  background-color: rgb(150, 25, 3, 0.9);
+}
+/* /////////////////////////////// Letter Suffle Css /////////////////// */
+.LetterShuffle {
+  padding: 0em;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  padding-top: 0.1em;
+}
+
+.LetterShuffle h1 {
+  font-size: 3.8em;
+  text-align: center;
+  font-weight: 600;
+  color: #353239;
+  letter-spacing: 5px;
+}
+
+.LetterShuffle h1 span span {
+  color: tomato;
+  position: relative;
+  bottom: -1em;
+  opacity: 0;
+  animation: move-text 0.75s infinite;
+}
+.LetterShuffle h1 span span:nth-child(2n) {
+  color: lightseagreen;
+}
+.LetterShuffle h1 span span:nth-child(3n) {
+  color: orange;
+}
+.LetterShuffle h1 span span:nth-child(4n) {
+  color: dodgerblue;
+}
+.LetterShuffle h1 span span:nth-child(5n) {
+  color: blueviolet;
+}
+
+@keyframes move-text {
+  0% {
+    bottom: -0.2em;
+    opacity: 1;
+  }
+
+  50% {
+    bottom: 0.2em;
+  }
+
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
